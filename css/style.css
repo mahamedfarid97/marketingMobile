@@ -1,0 +1,136 @@
+section {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+  margin-top: 20px;
+  font-family: "Museo Sans Rounded", sans-serif;
+}
+
+.mobile_brand {
+  padding: 15px;
+  background-color: #eff2f7;
+  width: 100%;
+  height: 270px;
+  border-radius: 15px;
+  display: flex;
+  border: 2px #d1d4d7 solid;
+}
+
+.brand_info {
+  margin-right: 1.2rem;
+  height: 100%;
+}
+.brand_info h2 {
+  color: #123971;
+  font-weight: 600;
+}
+
+.brand_display {
+  width: 50%;
+  height: 100%;
+}
+.brand_display .img_placeHolder {
+  display: flex;
+  margin-left: -30px;
+}
+.brand_display .img_placeHolder .labtop {
+  width: 291px;
+  height: 300px;
+  display: inline-block;
+}
+.brand_display .img_placeHolder .mobile {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin-top: 120px;
+  margin-left: -60px;
+}
+
+.benefits {
+  list-style-type: none;
+  padding: 0px;
+  font-size: 14px;
+}
+.benefits li {
+  padding: 0px 8px;
+  margin-bottom: 25px;
+  background: white;
+  border-radius: 10px;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+.benefits li .icon {
+  scale: 0.7;
+  line-height: 7px;
+}
+
+article {
+  width: 65.95745%;
+  float: right;
+  margin-left: 2.12766%;
+}
+
+.iconStores_container {
+  display: flex;
+}
+.iconStores_container .appleStore_icon {
+  margin-right: 15px;
+  background-color: black;
+}
+.iconStores_container .appleStore_icon .description {
+  color: #F9F8F2;
+}
+.iconStores_container .playStore_icon {
+  background-color: #E6EAF0;
+}
+.iconStores_container .playStore_icon .description {
+  color: #0F366D;
+}
+.iconStores_container .appleStore_icon, .iconStores_container .playStore_icon {
+  height: 40px;
+  width: 132px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 0px 10px 12px;
+  border-radius: 8px;
+}
+.iconStores_container .appleStore_icon:hover, .iconStores_container .playStore_icon:hover {
+  cursor: pointer;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.2392156863);
+}
+.iconStores_container .appleStore_icon img, .iconStores_container .playStore_icon img {
+  margin-right: 12px;
+}
+.iconStores_container .appleStore_icon .description, .iconStores_container .playStore_icon .description {
+  display: flex;
+  flex-direction: column;
+  width: -moz-max-content;
+  width: max-content;
+  font-family: "Nunito";
+}
+.iconStores_container .appleStore_icon .description .text, .iconStores_container .playStore_icon .description .text {
+  font-size: 12px;
+  margin-bottom: 3px;
+  margin-top: -1px;
+}
+.iconStores_container .appleStore_icon .description .icon_name, .iconStores_container .playStore_icon .description .icon_name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer .description_text {
+  color: #123971;
+  font-size: 12px;
+  margin-bottom: 15px;
+  line-height: 15px;
+}
+.footer .call_to_action {
+  color: #123971;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=style.css.map */
