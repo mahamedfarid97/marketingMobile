@@ -2,63 +2,160 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://fonts.cdnfonts.com/css/museo-sans-rounded" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/museo-sans-rounded" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <section class="mobileApp_section">
-        <article>
-            <div class="mobile_brand">
-                <div class="brand_info">
-                    <h2>Download our <br> New Budget app today</h2>
-                    <ul class="benefits">
-                        <li><span class="icon"><img src="assets/tick-circle.svg"></span>Book your car</li>
-                        <li><span class="icon"><img src="assets/tick-circle.svg"></span>Up to minute quotes</li>
-                        <li><span class="icon"><img src="assets/tick-circle.svg"></span>Manage your booking</li>
+    <div class="mobileApp_section_container">
+        <section class="mobileApp_section">
+            <article class="landing_mobile">
+                <div class="mobile_info">
+                    <div class="brand_info">
+                        <h2>
+                            Download our <br />
+                            New Budget app today
+                        </h2>
+                        <ul class="benefits">
+                            <li>
+                                <span class="icon"><img src="assets/tick-circle.svg" /></span>Book your car
+                            </li>
+                            <li>
+                                <span class="icon"><img src="assets/tick-circle.svg" /></span>Up to minute quotes
+                            </li>
+                            <li>
+                                <span class="icon"><img src="assets/tick-circle.svg" /></span>Manage your booking
+                            </li>
+                        </ul>
+                    </div>
 
-                    </ul>
+                    <div class="mobile_info_desc">
+                        <p class="description_text">
+                            Budget has just launched a mobile site allowing you to book a
+                            car whilst you’re out and about we’re making it easier for you
+                            to make a booking with our simple to use site.
+                        </p>
+                        <p class="call_to_action">
+                            Choose below and get Budget Application on your mobile device
+                        </p>
+
+                        <div class="iconStores_container">
+                            <a class="appleStore_icon"
+                                href="https://itunes.apple.com/sa/app/budget-car-hire/id1027783891?mt=8"
+                                target="_blank"><img alt="" src="./assets/apple_icon.svg" />
+                                <div class="description">
+                                    <span class="text">Get it now</span>
+                                    <span class="icon_name">App Store</span>
+                                </div>
+                            </a>
+                            <a class="playStore_icon"
+                                href="https://play.google.com/store/apps/details?id=com.budget.mobile"
+                                target="_blank"><img alt="" src="./assets/play_icon.svg" />
+                                <div class="description">
+                                    <span class="text">Get it now</span>
+                                    <span class="icon_name">Google Play</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="brand_display">
                     <div class="img_placeHolder">
-                        <img class="labtop" src="assets/MacBook Air (2022).svg">
-                        <img class="mobile" src="assets/iPhone 13.svg">
+                        <!-- <img class="labtop" src="assets/MacBook Air (2022).svg"> -->
+                        <img class="mobile" src="assets/iPhone_13_lg.svg" />
                     </div>
                 </div>
-            </div>
-            <div class="footer">
-                <p class="description_text">
-                    Budget has just launched a mobile site allowing you to book a car whilst you’re out and about
-                    we’re making it easier for you to make a booking with our simple to use site.
-                </p>
-                <p class="call_to_action">Choose below and get Budget Application on your mobile device</p>
-
-                <div class="iconStores_container">
-                    <a class="appleStore_icon" href="https://itunes.apple.com/sa/app/budget-car-hire/id1027783891?mt=8"
-                        target="_blank"><img alt="" src="./assets/apple_icon.svg">
-                        <div class="description">
-                            <span class="text">Get it now</span>
-                            <span class="icon_name">App Store</span>
+            </article>
+            <!-- <article id="about_us">
+                <h1 class="header">About Us</h1>
+                <div id="journey">
+                    <h3 class="sub_header">Our Journey</h3>
+                    <div class="time_line">
+                        <div class="time_line_item">
+                            <div class="dialog_container top">
+                                <div class="text">
+                                    1978: Founded with 1 office, 20 cars
+                                    <img src="./assets/dialog.svg" />
+                                </div>
+                            </div>
+                            <img class="step" src="./assets/timeline_step.svg" />
                         </div>
-                    </a>
-                    <a class="playStore_icon" href="https://play.google.com/store/apps/details?id=com.budget.mobile"
-                        target="_blank"><img alt="" src="./assets/play_icon.svg">
-                        <div class="description">
-                            <span class="text">Get it now</span>
-                            <span class="icon_name">Google Play</span>
+                        <div class="time_line_item">
+                            <div class="dialog_container bottom">
+                                <div class="text">
+                                    2008: Acquisition of competitor
+                                    <img src="./assets/dialog.svg" />
+                                </div>
+                            </div>
+                            <img class="step" src="./assets/timeline_step.svg" />
                         </div>
-                    </a>
+                        <div class="time_line_item">
+                            <div class="dialog_container">
+                                <div class="text">
+                                    2014: Introduction of electricvehicles
+                                    <img src="./assets/dialog.svg" />
+                                </div>
+                            </div>
+                            <img class="step" src="./assets/timeline_step.svg" />
+                        </div>
+                        <div class="time_line_item">
+                            <div class="dialog_container bottom">
+                                <div class="text">
+                                    2017: Launch of loyalty program
+                                    <img src="./assets/dialog.svg" />
+                                </div>
+                            </div>
+                            <img class="step" src="./assets/timeline_step.svg" />
+                        </div>
+                        <div class="time_line_item">
+                            <div class="dialog_container">
+                                <div class="text">
+                                    2019: Expansion to new markets
+                                    <img src="./assets/dialog.svg" />
+                                </div>
+                            </div>
+                            <img class="step" src="./assets/timeline_step.svg" />
+                        </div>
+                        <div class="time_line_item">
+                            <div class="dialog_container bottom">
+                                <div class="text">
+                                    Present: 101 offices, 37,000+ cars
+                                    <img src="./assets/dialog.svg" />
+                                </div>
+                            </div>
+                            <img class="step" src="./assets/timeline_step.svg" />
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </article>
-
-    </section>
+            </article> 
+             <article id="iso">
+                <div class="header">
+                    <h3>ISO-certified leader in KSA</h3>
+                    <img src="assets/iso_frame.svg">
+                </div>
+                <div id="our">
+                    <div id="vision">
+                        <h3>Our Vision</h3>
+                        <p>To be the largest diversified transportation group in the Middle East, Africa & Southeast
+                            Asia.</p>
+                        <img src="./assets/vision.png">
+                    </div>
+                    <div id="promise">
+                        <h3>Our Promise</h3>
+                        <p>Customer-driven, innovative, and committed to excellent service. Your satisfaction, our
+                            promise.</p>
+                        <img src="./assets/promise.png">
+                    </div>
+                </div>
+            </article> -->
+        </section>
+    </div>
 </body>
 
 </html>
