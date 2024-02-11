@@ -1,0 +1,136 @@
+#about_us {
+  padding-bottom: 100px;
+  .header {
+    font-size: 1.8em;
+    color: #123971;
+    font-weight: 600;
+  }
+  #journey {
+    .sub_header {
+      font-size: 1.1em;
+      color: #123971;
+      font-weight: 600;
+    }
+  }
+  .time_line {
+    display: flex;
+    width: 92%;
+    margin: auto;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 30px;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 77%;
+      width: 86%;
+      height: 6px;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #0000001a;
+    }
+    .time_line_item {
+      display: flex;
+      flex-direction: column;
+      min-width: 95px;
+      height: 130px;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      z-index: 99;
+      position: relative;
+      .dialog_container {
+        position: absolute;
+        top: -10px;
+        margin: 0px;
+        padding: 7px 10px;
+        width: 100%;
+        margin-left: -15px;
+        &.bottom {
+          top: 90%;
+          margin-top: 0px;
+          .text {
+            margin-bottom: 0px;
+            padding-top: 40%;
+            span {
+              margin-top: 20px;
+            }
+            img {
+              scale: -1;
+            }
+          }
+        }
+      }
+      .text {
+        position: relative;
+        padding: 10px 7px;
+        width: 100%;
+        font-size: 11px;
+        color: #0f366d;
+
+        img {
+          position: absolute;
+          width: 100%;
+          left: 0px;
+          top: 0px;
+          z-index: -1;
+        }
+      }
+      .step {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 60%;
+      }
+    }
+  }
+}
+
+#iso {
+  margin-top: 30px;
+  .header {
+    text-align: center;
+    color: #0f366d;
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    img {
+      position: absolute;
+      top: -15px;
+      left: 20%;
+      // scale: 1.1;
+    }
+  }
+}
+#our {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  p {
+    height: 60px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  #vision {
+    background-color: #ea580b;
+  }
+  #promise {
+    background-color: #f59e32;
+  }
+
+  div {
+    color: white;
+    padding: 30px 45px;
+    img {
+      width: 100%;
+    }
+  }
+}
